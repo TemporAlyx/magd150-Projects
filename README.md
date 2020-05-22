@@ -1,5 +1,5 @@
 # magd150-Projects
- 
+
 A repository with a few of the projects I made for my Intro to Media Arts and Game Development class, built using p5js.
 Run the individual projects by downloading them and opening the index.html file within them.
 Final Project has additional requirements as noted below.
