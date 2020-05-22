@@ -14,7 +14,7 @@ Click anywhere in the starfield to start a line, and then click a second time fo
 An attempt at creating two dimensional gravity. When the simulation is started, only a star in the middle is placed.
 Click anywhere to begin placing a planet, and then click a second time away from the starting position to initialize its velocity. After the second click the planet is placed and visible, and semi-functionally interacts gravitationally with the center star. Unfortunately, planets do not interact with each other.
 
-## Project 5 - Lightning.
+## Project 5 - Lightning
 
 A more traditional arcade type game, you play as a red square using left and right on the keyboard to move from side to side, and dodge impending lightning strikes from clouds above. Clouds are initilized with random speed, and strike at random intervals, but glow yellow before striking. You gain a point for each strike dodged, and lose if you get hit. Highest score to my knowledge is 96.
 
