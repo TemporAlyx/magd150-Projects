@@ -30,11 +30,17 @@ The planets/moons have different classes:
 - pink : bouncy (sometimes) 
 - gas giant :can fly partially into it (sometimes flings you out of the universe) 
 
-Escape pauses the game, and 8 opens up a debug overlay the displays various stats.
+Escape pauses the game, and 8 opens up a debug overlay the displays various stats: 
+Top left displays global player position and velocity.
+Each planet displays the gravitational influence it is exerting on the player ship.
+The player ship displays a vertical and horizontal vector of the gravitational force acting on it.
+
+EDIT: 
+Devmode enabled by default, making it easier to demo without webserver.
 
 The final project requires a local web server to run with images.
 https://github.com/processing/p5.js/wiki/Local-server
 I have tried the python simplehttpserver which did NOT work at the time of development,
 and the node http-server, which is what I reccomend. I believe the Chrome Web Server should work as well.
 
-If you don't want to run a local server, the project will still run, but upon loading none of the images for the planets or background will load. If you then hit 8, and enable the debug overlay, everything will be displayed using basic p5js geometry.
+If you don't want to run a local server, the project will still run, but upon loading none of the images for the planets or background will load. If you then hit 8, and enable the debug overlay, everything will be displayed using default p5js geometry.
