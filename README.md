@@ -33,7 +33,7 @@ The planets/moons have different classes:
 Escape pauses the game, and 8 opens up a debug overlay the displays various stats: 
 Top left displays global player position and velocity.
 Each planet displays the gravitational influence it is exerting on the player ship.
-The player ship displays a vertical and horizontal vector of the gravitational force acting on it.
+The player ship displays a vertical and horizontal vector of its velocity.
 
 EDIT: 
 Devmode enabled by default, making it easier to demo without webserver.
