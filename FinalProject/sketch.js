@@ -23,7 +23,7 @@ let height = 1080;//doesnt affect the scale of the image being created
 //Control state vars
 let timepause = false;
 let launching = true;
-let devmode = false;
+let devmode = true;
 
 let mousePress = false;
 
